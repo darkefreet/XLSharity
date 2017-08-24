@@ -14,7 +14,12 @@
 Route::get('/', function () {
     return view('index');
 });
-
+Route::get('/list-yayasan', function () {
+    return view('list-yayasan');
+});
+Route::get('/yayasan/{id?}', function () {
+    return view('yayasan');
+});
 Route::get('/test', function () {
     return view('tes');
 });

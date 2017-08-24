@@ -11,6 +11,7 @@
 }
 .yayasan-box{
   width: 100%;
+  height: 300px;
 }
 .event-box{
   height:200px;
@@ -19,6 +20,13 @@
   padding-left: 0px;
   margin-top: 5px;
   margin-bottom: 5px;
+  font-size: 12px;
+}
+.event-box h4{
+  font-size: 14px;
+}
+.event-box p{
+  font-size: 14px;
 }
 .event-box .event-picture{
   background: #ddd;

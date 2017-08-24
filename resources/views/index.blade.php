@@ -100,7 +100,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-6 text-center kategori" ng-repeat="n in kategori">
                     <div class="service-box">
-                        <img class="kategori-icon" src="icons/test.png"/>
+                        <img class="kategori-icon" src="icons/[[n.icon]]"/>
                         <h3>[[n.name]]</h3>
                         <p class="text-muted">[[n.description | limitTo : 80]]...</p>
                     </div>
@@ -115,7 +115,7 @@
             <div class="row no-gutter popup-gallery">
                 <div class="col-lg-4 col-sm-6" ng-repeat="n in yayasan">
                     <a href="{{asset('img/portfolio/fullsize/1.jpg')}}" class="portfolio-box">
-                        <img src="{{asset('img/portfolio/thumbnails/1.jpg')}}" class="yayasan-box img-responsive" alt="">
+                        <img src="{{asset('img/banner/[[n.banner_pict]]')}}" class="yayasan-box img-responsive" alt="">
                         <div class="portfolio-box-caption">
                             <div class="portfolio-box-caption-content">
                                 <div class="project-category text-faded">
@@ -136,7 +136,7 @@
         <div class="container text-center">
             <div class="call-to-action">
                 <h2>Yayasan yang Tergabung Bersama Kami</h2>
-                <a href="#" class="btn btn-default btn-xl sr-button">Lihat Semua</a>
+                <a href="/list-yayasan" class="btn btn-default btn-xl sr-button">Lihat Semua</a>
             </div>
         </div>
     </aside>
@@ -153,22 +153,22 @@
         <div class="container">
             <div class="col-md-6 col-xs-12">
                 <div class="col-xs-12 event-box" >
-                    <img class="col-xs-4 event-picture" src="{{asset('img/portfolio/thumbnails/6.jpg')}}">
+                    <img class="col-xs-4 event-picture" src="{{asset('img/events/1.jpg')}}">
                     <div class="col-xs-8 event-description">
                         <div>
-                        <h4 class="event-title">Judul Event</h4>
-                        <p class="text-muted">lalalallalallalalalallalalallalalallllllllllllalllllllllllllallllllllllllalalalalallalalalalalalallalallalalalallalalallalalallllllllllllalllllllllllllallllllllllllalalalalallalalalalalalallalallalalalallalalallalalallllllllllllalllllllllllllallllllllllllalalalalallalalalalalalallalallalalalallalalallalalallllllllllllalllllllllllllallllllllllllalalalalallalalalalalalallalallalalalallalalallalalallllllllllllalllllllllllllallllllllllllalalalalallalalalalalalallalallalalalallalalallalalallllllllllllalllllllllllllallllllllllllalalalalallalalalalalalallalallalalalallalalallalalallllllllllllalllllllllllllallllllllllllalalalalallalalala</p>
+                        <h4 class="event-title">Berbagi buku di Yayasan ABC</h4>
+                        <p class="text-muted">1001buku awalnya melakukan pengumpulan dan pendistribusian bahan bacaan anak serta berbagai penguatan taman baca melalui penyediaan sarana pengembangan kreativitas anak dari masyarakat. Sejalan dengan perkembangannya, 1001buku memfasilitasi penguatan taman-taman bacaan anak yang tergabung dalam Jaringan Taman Bacaan Anak 1001buku melalui pengembangan kapasitas, penyediaan materi dan acara yang dibutuhkan agar Taman Baca menjadi lebih berkelanjutan</p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-xs-12">
                 <div class="col-xs-12 event-box" >
-                    <img class="col-xs-4 event-picture" src="{{asset('img/portfolio/thumbnails/6.jpg')}}">
+                    <img class="col-xs-4 event-picture" src="{{asset('img/events/2.jpg')}}">
                     <div class="col-xs-8 event-description">
                         <div>
-                        <h4 class="event-title">Judul Event</h4>
-                        <p class="text-muted">lalalallalallalalalallalalallalalallllllllllllalllllllllllllallllllllllllalalalalallalalalalalalallalallalalalallalalallalalallllllllllllalllllllllllllallllllllllllalalalalallalalalalalalallalallalalalallalalallalalallllllllllllalllllllllllllallllllllllllalalalalallalalalalalalallalallalalalallalalallalalallllllllllllalllllllllllllallllllllllllalalalalallalalalalalalallalallalalalallalalallalalallllllllllllalllllllllllllallllllllllllalalalalallalalalalalalallalallalalalallalalallalalallllllllllllalllllllllllllallllllllllllalalalalallalalalalalalallalallalalalallalalallalalallllllllllllalllllllllllllallllllllllllalalalalallalalala</p>
+                        <h4 class="event-title">Menanam Kurma di Banyuwangi</h4>
+                        <p class="text-muted">Kegiatan menanam bunga di Banyuwangi pada tanggal xxxx.xx.xx membuat .....</p>
                         </div>
                     </div>
                 </div>
